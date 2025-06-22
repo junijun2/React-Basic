@@ -1,0 +1,42 @@
+@import '../../../assets/styles/main.scss';
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+  height: 100vh;
+
+  &__introBox {
+    width: 100%;
+    height: 40%;
+    background-image: url('../../../assets/images/image-intro.jpg');
+    background-size: cover;
+    background-position: 100% 15%;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 60px;
+    overflow-x: scroll;
+  }
+
+  &__title {
+    margin-bottom: 4px;
+    color: $color-white-000;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  &__desc {
+    color: $color-white-000;
+    margin-bottom: 32px;
+  }
+
+  
+}

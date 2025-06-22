@@ -1,0 +1,11 @@
+// src/assets/styles/main.scss
+
+@import './color.scss';
+@import './font.scss';
+
+// 전역 변수
+$HEADER-HEIGHT:     56px;
+$NAVIGATION-HEIGHT: 50px;
+$FOOTER-HEIGHT:     50px;
+
+/* 나머지 전역 믹스인이나 변수들도 여기에… */
